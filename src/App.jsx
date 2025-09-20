@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 // easter egg ideas: toggle for medieval website, secret doggo pic, thinking monkey image (ask reza for context), i CAN make minimum wage
-
+//boo
 
 function App() {
   const [count, setCount] = useState(0)

@@ -6,10 +6,10 @@ function Intro() {
   return (
     <>
       {
-        <div>
-            <h1 className="name">icream</h1>
+        <body>
+            <h1 className="name">Harshil Joshi</h1>
             <img src='src\assets\icream.jpg' className='icream'></img>
-        </div>
+        </body>
       }
     </>
   )

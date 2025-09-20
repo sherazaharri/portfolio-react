@@ -17,19 +17,32 @@
   border-radius: 1.2rem;
   width: 20rem;
   height: 30rem;
-  transition-duration: 0.1s;
+  transition-duration: 0.2s;
+  /* margin-left: 20rem; */
+  transition-timing-function: cubic-bezier(.34,.55,.12,1.44);
+  z-index: 0;
 }
 
 .icream:hover {
   border-radius: 10rem;
   scale: 2;
-  transition-duration: 0.1s;
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(.34,.55,.12,1.44);
+  z-index: 0;
 }
 
 .icream:active {
   border-radius: 1rem;
   scale: 0.7;
-  transition-duration: 0.1s;
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(.34,.55,.12,1.44);
+  z-index: 0;
+}
+
+.name {
+  font-size: 10rem;
+  color: #1a1a1a;
+  z-index: 1;
 }
 
 a {
